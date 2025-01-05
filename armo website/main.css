@@ -1,0 +1,80 @@
+.slogan{ /* H1 */
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    text-align: center;
+
+}
+
+.h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    text-align: start;
+    margin: 100px;
+    margin-top: 200px;
+    text-align: left;
+}
+
+.h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: start;
+    margin: 100px;
+    margin-top: 200px;
+    text-align: left;
+}
+
+.logo-simple{
+    display: flex;
+    justify-content: end;
+    height: 300px;
+    margin-right: 100px;
+
+    flex-wrap: wrap;
+}
+
+.home-project{
+    display: flex;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+}
+
+.logo{
+    height: 100px;
+    padding-bottom: 20px;
+}
+
+/* Standard Hellmodus */
+body.light {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Dunkelmodus */
+body.dark {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+button.dark {
+    background-color: #444444;
+    color: #ffffff;
+}
+
+.darkmode {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: ffffff;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.darkmode:hover {
+    background-color: #444444;
+}

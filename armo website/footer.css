@@ -1,0 +1,150 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #D9D9D9;
+    max-height: max-content;
+
+
+    flex-wrap: wrap;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+
+    font-family: arial;
+    font-size: 25px;
+}
+
+.footer-heading{
+    display: flex;
+    flex-direction: row;
+    max-height: 300px;
+    justify-content: start;
+    padding: 10px;
+
+    flex-wrap: wrap;
+}
+
+.telephone {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-left: 10px;
+
+    flex-wrap: wrap;
+}
+
+.tel-numbers{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+
+    flex-wrap: wrap;
+}
+
+.Instagram {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-left: 10px;
+
+    flex-wrap: wrap;
+}
+
+.Instagram > a {
+    display: flex;
+    align-items: center;
+
+    flex-wrap: wrap;
+}
+
+
+.email {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10px;
+    gap: 50px;
+
+    flex-wrap: wrap;
+}
+
+.email > a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    flex-wrap: wrap;
+}
+
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    font-family: arial;
+    font-size: 25px;
+    align-items: end;
+    justify-content: space-evenly;
+    
+    flex-wrap: wrap;
+}
+
+.footer-contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+
+    flex-wrap: wrap;
+}
+
+.footer-team{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+
+    flex-wrap: wrap;
+}
+
+.footer-projects{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+
+    flex-wrap: wrap;
+}
+
+.footer-right-logo {
+    width: 150px;
+    padding-bottom: 20px;
+}
+
+.body-footer-r{
+    color: black;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.body-footer-r:hover{
+    border-bottom: 2px solid #10ADA3;
+}
+
+.body-footer{
+    color: black;
+    text-decoration: none;
+}
+
+.body-footer:hover {
+    color: #01306D;
+}
